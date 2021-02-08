@@ -68,6 +68,14 @@ body {
     padding-top: 1vh;
 }
 
+.text a {
+    text-decoration:underline;
+}
+
+.text a:hover {
+    background-color: transparent;
+}
+
 .hero > i {
     padding: 2vw;
     line-height: 10vh;
@@ -96,10 +104,6 @@ a:hover {
     color: white;
     background-color: #4c4c4c;
     transition: 0.5s;
-}
-
-.text a {
-    text-decoration:underline;
 }
 
 .navlink, .navlink-contact {
