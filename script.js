@@ -2,7 +2,6 @@ const navItems = document.querySelectorAll(".navlink");
 const navButton = document.querySelectorAll(".nav-button");
 const allImages = document.querySelectorAll(".image")
 const allText = document.querySelectorAll(".text");
-const allButtons = document.querySelectorAll(".contact-button");
 
 
 function toggleText(dataClass){
@@ -14,9 +13,6 @@ function toggleText(dataClass){
   image.dataset.class === dataClass ? image.style.display = "block" : image.style.display = "none";
   })
 
-  allButtons.forEach( contact => {
-  contact.dataset.class === dataClass ? contact.style.display = "block" : contact.style.display = "none";
-  })
 }
 
 navItems.forEach( function(item) {
@@ -31,7 +27,7 @@ navButton.forEach( function(item) {
   });
 });
 
-const allLinks = document.querySelectorAll("a");
+const allLinks = document.querySelectorAll(".header a");
 const scrollDiv = document.getElementById("text-scroll")
 
 allLinks.forEach( function(item) {
@@ -41,6 +37,15 @@ allLinks.forEach( function(item) {
 });
 
 
+// OVERLAY FOR CONTACT ME MENU - START
+
+function openOverlay() {
+    document.getElementById("contactNav").style.width = "100%";
+}
+  
+function closeOverlay() {
+    document.getElementById("contactNav").style.width = "0%";
+}
 
 
 // Links for contact buttons
@@ -69,8 +74,6 @@ document.getElementById("skype").onclick = () => {
   window.open("https://join.skype.com/invite/hahCJc2s8ef6");
 }
 
-document.getElementById("teams").onclick = () => {
-  window.open("https://teams.microsoft.com/join/v3c2mc8f4unc");
-}
-
 // Links for contact buttons
+
+// OVERLAY FOR CONTACT ME MENU - END
