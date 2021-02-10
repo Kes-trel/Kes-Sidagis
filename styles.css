@@ -217,15 +217,19 @@ a:hover {
 
     .nav-bar-icons i {
         line-height: 50px;
-        font-size: 10vw;
+        font-size: 8vw;
         color: #D3D3D3;
         cursor: pointer;
-        padding: 0 7vw;
-        margin: auto 4vw;
+        padding: 3px 7vw;
     }
 
     a:hover {
-        background-color: transparent;
+        background-color: #262626;
+    }
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
     }
 
     .text p {
