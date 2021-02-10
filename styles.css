@@ -220,16 +220,13 @@ a:hover {
         font-size: 8vw;
         color: #D3D3D3;
         cursor: pointer;
-        padding: 3px 7vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 3px;
     }
 
     a:hover {
         background-color: #262626;
-    }
-    a:link,
-    a:visited,
-    a:active {
-        text-decoration: none;
     }
 
     .text p {
