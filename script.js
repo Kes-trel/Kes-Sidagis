@@ -55,7 +55,7 @@ closeOverlay = () => {
 // Links for contact buttons
 
 document.getElementById("mobile").onclick = () => {
-  window.open("tel: +44");
+  window.open("tel: +447742471147");
 }
 
 document.getElementById("email").onclick = () => {
