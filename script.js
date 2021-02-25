@@ -70,6 +70,10 @@ document.getElementById("twitter").onclick = () => {
   window.open("https://twitter.com/sidagis");
 };
 
+document.getElementById("fcc").onclick = () => {
+  window.open("https://www.freecodecamp.org/kes-trel");
+};
+
 // Links for contact buttons
 
 // OVERLAY FOR CONTACT ME MENU - END
