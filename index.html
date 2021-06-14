@@ -1,88 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kes - Aspiring Developer</title>
+    <title>Kes - Aspiring Data Scientist</title>
 
     <link rel="stylesheet" href="/styles.css">
     <script src="https://kit.fontawesome.com/817c5a4b3b.js" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
 
-    <div class="grid-container">
+<section id="welcome-section">
 
-        <div class="header">
-            <div class="logo">
-                KES SIDAGIS
-            </div>
-            <div class="nav-bar">
+    <div>
+        <h1>Kes Sidagis</h1>
+        <h2>Aspiring Data Scientist</h2>
 
-                <a href="#" class="navlink-contact" data-class="contact" onclick="openOverlay()"><i class="fas fa-mobile"></i>&emsp;CONTACT</a>
+        <p>After over a decade in UK’s Water Industry as a Civil Engineer I decided to change my career path and explore pastures new. I am currently self-learning, however, I recognise the invaluable benefits of on the job training and I am keen to connect and work with industry experts to develop both technical and professional skills.</p>
 
-                <a href="#" class="navlink" data-class="bio"><i class="fas fa-user"></i>&emsp;BIO</a>
+        <h4>Please do not hesitate to contact me for an informal chat!</h4>
+      
+    </div>
 
-                <a href="#" class="navlink" data-class="home"><i class="fas fa-home"></i>&emsp;HOME</a>
+</section>
 
-            </div>
+<div class="content-area">
 
-            <div class="nav-bar-icons">
+    <section id="about">
+        
+        <h2>About me</h2>
 
-                <a href="#" class="nav-button" data-class="home"><i class="fas fa-home"></i></a>
+        <div class="container_about">
+        
+            <div class="text">
 
-                <a href="#" class="nav-button" data-class="bio"><i class="fas fa-user"></i></a>
+                <h3>Civil Engineering</h3>
 
-                <a href="#" class="nav-button-contact" data-class="contact" onclick="openOverlay()"><i class="fas fa-mobile"></i></a>
-
-            </div>
-
-
-        </div>
-
-        <div class="text-selection" id="text-scroll">
-
-            <div class="text" data-class="home">
-
-                <div class="mobile-picture-one"></div>
-
-                <div class="hero">
-                    <h1>KES SIDAGIS</h1>
-                    <h2>Aspiring Software Developer</h2>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js-square"></i>
-                    <i class="fab fa-python"></i>
-                    <i class="fas fa-hard-hat"></i>
-                </div>
-
-                <h2>Help me help you...</h2> <!-- Thanks for taking time to scan through my code -->
-
-                <p>I am looking for Software Developer opportunities to gain hands-on experience to design and build software solutions.</p>
-
-                <p>I am currently self-learning several programming languages, including HTML, CSS, JavaScript and Python. I do, however, recognise the invaluable benefits of on the job training and I am keen to connect and work with industry experts to develop both technical and professional skills.</p>
-
-                <p>Please do not hesitate to contact me for an informal chat!</p>
-                <!-- Just give me a call and have a chat ;) -->
-
-            </div>
-
-            <div class="text" data-class="bio" style="display: none">
-
-                <h2 class="bioh2">Bio</h2>
-
-                <p>After over a decade in UK’s Water Industry as a Civil Engineer I decided to change my career path and
-                    explore pastures new. For a detailed employment history please visit my
+                <p>A wide range of responsibilities were trusted upon me throughout my career in Civil Engineering, from the solution development using hydraulic modelling to the final preparation and submission of various tenders, contract documents and specifications including detailed design drawings. For a detailed employment history please visit my
                     <span>
                         <a href="https://www.linkedin.com/in/sidagis/" target="blank"><i
                                 class="fab fa-linkedin"></i>&nbsp;LinkedIn</a>
                     </span>
                     page.</p>
-
-                <p>A wide range of responsibilities were trusted upon me throughout my career in Civil Engineering, from the solution development using hydraulic modelling to the final preparation and submission of various tenders, contract documents and specifications including detailed design drawings.</p>
 
                 <p>I have worked closely with clients, multidisciplinary teams and colleagues based in different departments, offices and countries. These opportunities enabled me to understand the need to vary written and verbal styles to suit the situation and recipient of the information. I am experienced in chairing meetings with clients and external stakeholders.</p>
 
@@ -103,88 +64,333 @@
                                 class="fab fa-youtube"></i>&nbsp;here</a>
                     </span>
                     .</p>
-                    
+            </div>
+        
+        </div>
+
+        <div class="personal_about">
+
+            <div class="text2">
+
+                <h3>Personal</h3>            
+                
                 <p>On a personal level like for many of us it was a challenging year, but as a family we managed to enjoy spending more time with our little one and getting my four-legged friend exhausted while exploring local woods. Once the World opens again, I am looking forward to spending time with my friends and family, using my football season ticket and travelling.</p>
 
                 <p>Many thanks for taking time to read my profile and I look forward to hearing from you.</p>
 
                 <p>If you would like to know more about me or have some feedback, please do not hesitate to get in touch.</p>
 
+                <img src="/images/Profile/Personal_line_dark.png" alt="">
+
             </div>
 
         </div>
 
-        <div class="all_images">
+    </section>
 
-            <div class="image" data-class="home" id="profile-one"></div>
+    <section id="projects">
 
-            <div class="image" data-class="bio" id="profile-two" style="display: none"></div>
+        <h2>My recent work and courses</h2>
+
+        <div class="project-grid">
+
+            <a href="https://share.streamlit.io/kes-trel/mnist-learn/main/TensorFlow_MNIST.py" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/MNIST_Trainer.png" alt=""/>
+                    <p class="project-title">MNIST Training Model - TensorFlow on Streamlit</p>
+            </a>
+
+            <a href="https://www.udemy.com/certificate/UC-8b45ea96-cdd2-422c-aa3f-61dfe1aee871/" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/Udemy-DataScience365.png" alt="Data Science Bootcamp certificate"/>
+                    <p class="project-title">Data Science Bootcamp</p>
+            </a>
+
+            <!-- <a href="" target="_blank" class="project-tile">
+                <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" alt=""/>
+                    <p class="project-title">MNIST Deployed Model - Streamlit</p>
+            </a> -->
+            
+            <a href="https://www.freecodecamp.org/certification/kes-trel/scientific-computing-with-python-v7" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/FCC_Sci-Python.png" alt="Scientific Computing with Python certificate"/>
+                <p class="project-title">Scientific Computing with Python</p>
+            </a>
+            
+            <a href="https://www.freecodecamp.org/certification/kes-trel/data-analysis-with-python-v7" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/FCC_Data-Python.png" alt="Data Analysis with Python certificate"/>
+                <p class="project-title">Data Analysis with Python</p>
+            </a>
+
+            <a href="https://freecodecamp.org/certification/kes-trel/responsive-web-design" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/FCC_Responsive-web-design.png" alt="responsive web design certificate"/>
+                    <p class="project-title">Responsive Web Design</p>
+            </a>
+
+            <a href="https://www.leedstrinity.ac.uk/study/reboot/digital-coding/" target="_blank" class="project-tile">
+                <img class="project-image" src="/images/Profile/re-boot_LTU.png" alt=""/>
+                    <p class="project-title">Web Development (HTML, CSS, JS) Autumn 2021</p>
+            </a>
+
 
         </div>
 
-        <div class="footer">
+    </section>
 
-            <div class="footer_date">2021</div>
+    <section id="skills">
+
+        <h2>Skills and Tools</h2>
+
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Data Analysis, Manipulation and ML</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://www.python.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/python.png" alt="Python Logo"/>
+                        <p class="skills-title">Python</p>
+                </a>
+                
+                <a href="https://pandas.pydata.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/pandas.png" alt="Pandas Logo"/>
+                        <p class="skills-title">Pandas</p>
+                </a>
+                
+                <a href="https://numpy.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/numpy.png" alt="NumPy Logo"/>
+                        <p class="skills-title">NumPy</p>
+                </a>
+                
+                <a href="https://www.tensorflow.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/tensorflow.png" alt="TensorFlow Logo"/>
+                        <p class="skills-title">TensorFlow</p>
+                </a>
+                
+                <a href="https://scikit-learn.org/stable/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/scikitlearn.png" alt="Scikit-Learn Logo"/>
+                        <p class="skills-title">Scikit-Learn</p>
+                </a>
+                
+                <a href="https://www.statsmodels.org/stable/index.html" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/statsmodels.png" alt=""/>
+                        <p class="skills-title">Statsmodels</p>
+                </a>
+
+            </div>
+        
+        </div>
+
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Tools</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://jupyter.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/jupyter.png" alt="Jupyter Notebook Logo"/>
+                        <p class="skills-title">Jupyter Notebook</p>
+                </a>
+                
+                <a href="https://code.visualstudio.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/vscode.png" alt="Visual Studio Code Logo"/>
+                        <p class="skills-title">Visual Studio Code</p>
+                </a>
+                
+                <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/pycharm.png" alt="PyCharm Logo"/>
+                        <p class="skills-title">PyCharm</p>
+                </a>
+                
+                <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/colab.png" alt="Colab Logo"/>
+                        <p class="skills-title">Colab</p>
+                </a>
+                            
+                <a href="https://www.microsoft.com/en-gb/microsoft-365/excel" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/excel.png" alt="Excel Logo"/>
+                        <p class="skills-title">Microsoft Excel</p>
+                </a>
+                
+                <a href="https://git-scm.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/git.png" alt="Git Logo"/>
+                        <p class="skills-title">Git</p>
+                </a>
+                
+                <a href="https://github.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/github.png" alt="GitHub Logo"/>
+                        <p class="skills-title">GitHub</p>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Visualisations</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://streamlit.io/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/streamlit.png" alt="Streamlit Logo"/>
+                        <p class="skills-title">Streamlit</p>
+                </a>
+                
+                <a href="https://public.tableau.com/en-us/s/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/tableau.png" alt="Tableau Public Logo"/>
+                        <p class="skills-title">Tableau Public</p>
+                </a>
+                
+                <a href="https://plotly.com/python/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/plotly.png" alt="Plotly Logo"/>
+                        <p class="skills-title">Plotly</p>
+                </a>
+                
+                <a href="https://seaborn.pydata.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/seaborn.png" alt="Seaborn Logo"/>
+                        <p class="skills-title">Seaborn</p>
+                </a>
+                
+                <a href="https://matplotlib.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/matplotlib.png" alt="Matplotlib Logo"/>
+                        <p class="skills-title">Matplotlib</p>
+                </a>
+
+            </div>
 
         </div>
+            
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Databases</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://www.postgresql.org/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/psql.png" alt="PostgreSQL Logo"/>
+                        <p class="skills-title">PostgreSQL</p>
+                </a>
+                
+                <a href="https://www.sqlite.org/index.html" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/SQLite.png" alt="SQLite Logo"/>
+                        <p class="skills-title">SQLite</p>
+                </a>
+                
+                <a href="https://www.timescale.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/timescale.png" alt="TimescaleDB Logo"/>
+                        <p class="skills-title">TimescaleDB</p>
+                </a>
+
+            </div>
+        
+        </div>
+
+            
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Frontend</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/html.png" alt="HTML Logo"/>
+                        <p class="skills-title">HTML</p>
+                </a>
+                
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/css.png" alt="CSS Logo"/>
+                        <p class="skills-title">CSS</p>
+                </a>
+                
+                <a href="https://www.javascript.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/javascript.png" alt="JavaScript Logo"/>
+                        <p class="skills-title">JavaScript</p>
+                </a>
+
+            </div>
+        
+        </div>
+
+        <div class="skills-grid-wrapper">
+
+            <h3 class="skills-heading">Infrastructure</h3>
+
+            <div class="skills-grid">
+                
+                <a href="https://www.digitalocean.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/DigitalOcean.png" alt="DigitalOcean Logo"/>
+                        <p class="skills-title">DigitalOcean</p>
+                </a>
+                
+                <a href="https://www.netlify.com/" target="_blank" class="skills-tile">
+                    <img class="skills-image" src="/images/Logos/netlify.png" alt="Netlify Logo"/>
+                        <p class="skills-title">Netlify</p>
+                </a>
+
+            </div>
+        
+        </div>
+
+    </section>
+
+</div>
+
+<nav id="navbar">
+
+    <div class="nav-bar-text">
+        <a href="#" class="navlink-contact" onclick="openOverlay()"><i class="fas fa-mobile"></i>&emsp;Contact</a>
+        <a href="#skills" class="navlink"><i class="fas fa-cogs"></i>&emsp;Skills</a>
+        <a href="#projects" class="navlink"><i class="fas fa-folder-open"></i>&emsp;Work</a>
+        <a href="#about" class="navlink"><i class="fas fa-user-circle"></i>&emsp;About</a>
+        <a href="#top" class="navlink"><i class="fas fa-home"></i>&emsp;Welcome</a>
+    </div>
+
+    <div class="nav-bar-icons">
+        <a href="#top" class="nav-button"><i class="fas fa-home"></i></a>
+        <a href="#about" class="nav-button"><i class="fas fa-user-circle"></i></a>
+        <a href="#projects" class="nav-button"><i class="fas fa-folder-open"></i></a>
+        <a href="#skills" class="nav-button"><i class="fas fa-cogs"></i></a>
+        <a href="#" class="nav-button-contact" onclick="openOverlay()"><i class="fas fa-mobile"></i></a>
+    </div>
+
+</nav>
+
+<div id="contactNav" class="overlay">
+    <!-- Overlay for contact links -->
+
+    <a href="#" class="closebtn" onclick="closeOverlay()">&times;</a>
+    <!-- Cross to close overlay window -->
+
+    <div class="overlay-contact-links">
+
+        <a href="#" class="contact-button" id="mobile">
+            <i class="fas fa-phone-square"></i> Mobile
+        </a>
+
+        <a href="#" class="contact-button" id="email">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+
+        <a href="#" class="contact-button" id="linkedin">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="#" class="contact-button" id="github">
+            <i class="fab fa-github-square"></i> GitHub
+        </a>
+
+        <a href="#" class="contact-button" id="twitter">
+            <i class="fab fa-twitter-square"></i> Twitter
+        </a>
+
+        <a href="#" class="contact-button" id="fcc">
+            <i class="fab fa-free-code-camp"></i> FreeCodeCamp
+        </a>
 
     </div>
 
-    <div id="contactNav" class="overlay">
-        <!-- Overlay for contact links -->
+    <br>
 
-        <a href="#" class="closebtn" onclick="closeOverlay()">&times;</a>
-        <!-- Cross to close overlay window -->
+</div>
 
-        <div class="overlay-contact-links">
-
-            <a href="#" class="contact-button" id="mobile">
-                <i class="fas fa-phone-square"></i> Mobile
-            </a>
-
-            <a href="#" class="contact-button" id="email">
-                <i class="fas fa-envelope"></i> Email
-            </a>
-
-            <a href="#" class="contact-button" id="linkedin">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-
-            <a href="#" class="contact-button" id="github">
-                <i class="fab fa-github-square"></i> GitHub
-            </a>
-
-            <a href="#" class="contact-button" id="twitter">
-                <i class="fab fa-twitter-square"></i> Twitter
-            </a>
-
-            <a href="#" class="contact-button" id="fcc">
-                <i class="fab fa-free-code-camp"></i> FreeCodeCamp
-            </a>
-
-        </div>
-
-    </div>
-
-    <script src="/script.js"></script>
-
-    <noscript>
-        <div id="noscript" style="
-    position: absolute;
-    font-size: 20px;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.95);
-    z-index: 999;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-top: 50vh;">
-            Please enable JavaScript to view this site.<br>
-            For instructions please visit <a href="https://www.enable-javascript.com/" target="blank">www.enable-javascript.com</a>
-        </div>
-    </noscript>
+<script src="/script.js"></script>
 
 </body>
-
 </html>
