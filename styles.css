@@ -87,11 +87,11 @@ a {
 .nav-button,
 .nav-button-contact {
     line-height: 50px;
-    font-size: 8vw;
+    font-size: 30px;
     color: #262626;
     cursor: pointer;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 12px;
+    padding-right: 12px;
     padding-top: 3px;
 }
 
@@ -103,19 +103,6 @@ a {
     align-items: center;
     display: flex;
     /* background-color: #668bc5; */
-}
-
-#welcome-section::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    background-image: url("/images/Profile/Profile picture blue 1.png");
-    -webkit-backgorund-size: cover;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size:contain;
 }
 
 #welcome-section p {
@@ -286,7 +273,20 @@ p {
     .nav-bar-icons {
         display: none;
     }
-
+    #welcome-section::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 90%;
+        height: 90%;
+        opacity: 0.3;
+        background-image: url("/images/Profile/Profile picture blue 1.png");
+        -webkit-backgorund-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
 }
 
 @media (max-width: 800px) {
@@ -323,7 +323,7 @@ p {
         padding: 0px 5vw;
         font-size: 14px;
         text-align: justify;
-        line-height: 4vh;
+        line-height: 20px;
     }
     #welcome-section h4 {
         margin-bottom: 20vh;
@@ -331,13 +331,23 @@ p {
         font-size: 15px;
     }
     #welcome-section::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
         opacity: 1;
         background-image: url("/images/Profile/Profile picture blue 0.png");
+        -webkit-backgorund-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size:contain;
     }
     #about p {
         padding: 0px 5vw;
         font-size: 14px;
-        line-height: 4vh;
+        line-height: 20px;
     }
     #about h3 {
         padding: 0px 5vw;
@@ -384,6 +394,32 @@ p {
         margin: 0 auto;
         padding-bottom: 100px;
     }
+}
+
+@media (max-height: 400px) {
+    #welcome-section::before{
+        background-image: none;
+    }
+    #welcome-section h1 {
+        font-size: 40px;
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+    #welcome-section h2 {
+        font-size: 20px;
+    }
+    #welcome-section h4 {
+        margin-bottom: 20vh;
+        font-size: 15px;
+    }
+    .nav-button,
+    .nav-button-contact {
+    color: #262626;
+    cursor: pointer;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3px;
+}
 }
 
 .content-area {
