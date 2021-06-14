@@ -282,14 +282,14 @@ p {
     /* display: none; */
 }
 
-@media (min-width: 641px) {
+@media (min-width: 800px) {
     .nav-bar-icons {
         display: none;
     }
 
 }
 
-@media (max-width: 641px) {
+@media (max-width: 800px) {
     .nav-bar-text, .logos {
         display: none;
     }
@@ -332,6 +332,7 @@ p {
     }
     #welcome-section::before{
         opacity: 1;
+        background-image: url("/images/Profile/Profile picture blue 0.png");
     }
     #about p {
         padding: 0px 5vw;
@@ -358,12 +359,12 @@ p {
         width: 80%;
     }
     .skills-heading {
-        text-align: center;
+        text-align: left;
         padding: 0 10%;
         font-size: 15px;
     }
-    .skills-title {
-        font-size: 12px;
+    .skills-title, .project-title {
+        font-size: 14px;
         padding: 0 0;
         text-align: center;
         /* display: none; */
@@ -372,7 +373,16 @@ p {
         position: absolute;
         right: 0px;
         top: 0px;
-        padding: 30px;
+        padding: 20px;
+    }
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        grid-row-gap: 5px;
+        width: 70%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 100px;
     }
 }
 
