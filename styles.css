@@ -348,8 +348,8 @@ p {
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 50vh;
-        height: 50vh;
+        width: 45vh;
+        height: 45vh;
         opacity: 0.5;
         background-image: url("/images/Profile/Profile picture blue 0.png");
         -webkit-backgorund-size: cover;
